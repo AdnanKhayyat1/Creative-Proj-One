@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(213, 218, 223);
+}
+
+* {
+    box-sizing: border-box;
+  }
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+li{
+    color: white;
+    font-size: 15px;  
+}
+p{
+    color: white;
+    font-size: 20px; 
+}
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+     height: 1100px; 
+  }
+  
+  .left, .right {
+    width: 20%;
+  }
+  
+  .middle {
+    width: 60%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .score{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+  }

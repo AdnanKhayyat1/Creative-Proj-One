@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Reviewz
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="reviewStyle.css">
+    </head>
+    <body>
+            <header>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <a class="navbar-brand" href="#">Bottled Water Review</a>
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                            <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="criteria.html">Criteria </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="review.html">Review <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="resources.html">Sources</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </nav>
+                </header>
+                <div class="row">
+                    <div class="column left"">
+                    </div>
+                    <div class="column middle" style="background-color: #343A40;">
+                      <h1>Which bottled water is the best so far?</h1>
+                      <h2>Contestants:</h2>
+                      <div class="row">
+                          <div class="columnEqual">
+                            <h2>VOSS</h2>
+                            <img src="VOSS.png" alt="VOSS water bottle" height="200" width="200">
+                            <h2>pH value: 5 - Acidic Water</h2>
+                            <br>
+                            <h2>Price: $11.99 - Very Expensive</h2>
+                            <br>
+                            <h2>Taste:</h2><p>Ugly taste of Minerals, Kind of Sour, Bitter After-taste.</p>
+                            <br>
+                            <h2>Recycability:</h2><p>Yes. At VOSS, we have aligned our company operations with the same values inherent in our product: pure water from pure resources. Aside from promoting recyclability of our glass and plastic (PET) bottles, we also pursue carbon neutrality. VOSS is committed to reducing our carbon footprint from the moment we source our water to the moment you recycle the bottle.</p>
+                            <div class="score" style="color: red;">
+                            <h1>Final Score</h1>
+                            <h1>2/5</h1>
+                          </div>
+                          </div>
+                          
+                          <div class="columnEqual">
+                            <h2>Smart Water</h2>
+                            <img src="smart.png" alt="smartwater bottle" height="200" width="200">
+                            <h2>pH value: 7 - Strictly Neutral</h2>
+                            <br>
+                            <h2>Price: $2.08 - Cheap</h2>
+                            <br>
+                            <h2>Taste:</h2><p>Fresh, Kind of a bouyant texture, bad After-taste</p>
+                            <br>
+                            <h2>Recycability: Yes</h2>
+                            <div id=smart>
+                            <img src="plantbottle.png" alt="smartwater bottle" height="300" width="300" background-color ="white">
+                      
+                            </div>
+                            <br><br>
+                            <div class="score" style="color: yellow;">
+                            <h1>Final Score</h1>
+                            <h1>3/5</h1>
+                          </div>
+                          <div id ="block">
+                              <button onclick="myFunction()">My Personal Favourite?</button>
+                          </div>
+                          
+                          </div>
+                          
+                          <div class="columnEqual">
+                            <h2>Evian</h2>
+                            <img src="evian.png" alt="smartwater bottle" height="200" width="200">
+                          
+                            <h2>pH value: 8 - Alkaline</h2>
+                            <br>
+                            <h2>Price: $1.89 - Very Cheap</h2>
+                            <br>
+                            <h2>Taste:</h2><p>No After-Taste, No taste of Minerals, Really fresh.</p>
+                            <br>
+                            <h2>Recycability: Kind Of</h2>
+                            <p>The water firm says it plans to become a "circular brand" by keeping all the plastic it uses within the economy and out of nature. Drinks firm Evian has announced all its bottles will be made of 100% recycled plastic by 2025</p>
+                            <br>
+                            <div class="score" style="color: green;">
+                            <h1>Final Score</h1>
+                            <h1>4.5/5</h1>
+                          </div>
+                          
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <div class="column right">
+                    </div>
+                  </div>
+    <script>
+      
+        function myFunction() {
+        document.getElementById("block").innerHTML = "<p>Probably the Smart Water.</p>";
+      }
+      
+    </script>
+    </body>
+</html>
